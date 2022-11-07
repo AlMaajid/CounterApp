@@ -13,66 +13,50 @@ html{
 #container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   color: white;
   padding: 2rem;
   text-align: center;
 }
 
-#title{
-  padding: 4rem 2rem;
-  letter-spacing: 1rem;
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
   font-size: 5rem;
+  margin-top: 0;
+  margin-bottom: 5rem;
 }
 
-#subtitle{
-  padding: 4rem 2rem;
-  letter-spacing: .5rem;
-  font-size: 2rem;
-}
-
-#num{
-  font-size: 2rem;
-  padding: 4rem 2rem;
-}
-
-#increment-btn{
-  padding: 1rem 2rem;
-  width: 40%;
-  margin-bottom: 2rem;
-  background-color: white;
+button {
   border: none;
-  color: black;
-}
-
-#save-btn{
-  padding: 1rem 2rem;
-  width: 40%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  font-weight: bold;
+  width: 20rem;
   margin-bottom: 2rem;
-  background-color: white;
-  border: none;
-  color: black;
+  border-radius: 2rem;
 }
 
-#reset-btn{
-  padding: 1rem 2rem;
-  width: 40%;
-  margin-bottom: 2rem;
-  background-color: white;
-  border: none;
-  color: black;
+#increment-btn {
+  background: darkred;
 }
 
-#save-entries{
-  font-size: 2rem;
-  letter-spacing: .5rem;
+#save-btn {
+  background: darkgreen;
+margin-bottom: 5rem;
 }
-/* <div id="container">
-<h1 id="title">Counter App</h1>
-<h2 id="subtitle">People Entered:</h2>
-<p id="num">0</p>
-<button id="increment-btn" onclick="increment()">INCREMENT</button>
-<button id="save-btn" onclick="save()">SAVE</button>
-<h3 id="save-entries">Previous-Entries:</h3>
-</div> */
+
+p{
+  font-size: 3rem;
+}
